@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import  MainContent from "./components/MainContent"
+/* function App(){
+return(
+<div>
+    <nav>
+    <h1>Hello A third time</h1>
+        <ul>
+   
+<li>hello 1</li>
+<li>hello 2 </li>
+<li>Hello 3</li>
+</ul>
+</nav>
+<main><p>this is where most of my content will go</p></main>
+<Footer/>
+</div>
+)
 }
+export default App */
+//10PART
+/* Function App(){
+return(
+<div>
+<Header />
+<MainContent />
 
-export default App;
+<Footer />
+
+</div>
+
+
+)
+
+
+}
+export default App */
+
+11PART
+
+function App(){
+return(
+<div>
+<input type= "checkbox" />
+<p> PlaceHolder Text here</p>
+
+<input type= "checkbox" />
+<p> PlaceHolder Text here</p>
+
+<input type= "checkbox" />
+<p> PlaceHolder Text here</p>
+
+<input type= "checkbox" />
+<p> PlaceHolder Text here</p>
+
+
+</div>
+
+
+)
+}
+ export default App
